@@ -1,0 +1,51 @@
+id_producto,nombre_producto,categoria,sucursal,stock,precio_unitario
+P001,"Smart TV 55""",Tecnología,San Salvador,107,463.34
+P002,Refrigeradora 2 Puertas,Línea Blanca,San Salvador,19,388.82
+P003,Licuadora de Alta Potencia,Electrodomésticos,San Salvador,65,65.63
+P004,Taladro Percutor,Ferretería,San Salvador,87,81.6
+P005,Juego de Sala Minimalista,Hogar,San Salvador,79,259.15
+P006,Laptop Core i5,Tecnología,San Salvador,104,433.93
+P007,Microondas 20L,Electrodomésticos,San Salvador,7,61.88
+P008,Set de Herramientas 100 pzas,Ferretería,San Salvador,6,86.89
+P009,Aire Acondicionado 12000 BTU,Línea Blanca,San Salvador,34,369.07
+P010,Colchón Matrimonial Ortopédico,Hogar,San Salvador,68,262.31
+P001,"Smart TV 55""",Tecnología,Santa Ana,37,441.19
+P002,Refrigeradora 2 Puertas,Línea Blanca,Santa Ana,26,361.27
+P003,Licuadora de Alta Potencia,Electrodomésticos,Santa Ana,93,63.64
+P004,Taladro Percutor,Ferretería,Santa Ana,63,84.15
+P005,Juego de Sala Minimalista,Hogar,Santa Ana,96,261.84
+P006,Laptop Core i5,Tecnología,Santa Ana,19,448.02
+P007,Microondas 20L,Electrodomésticos,Santa Ana,51,65.77
+P008,Set de Herramientas 100 pzas,Ferretería,Santa Ana,112,85.12
+P009,Aire Acondicionado 12000 BTU,Línea Blanca,Santa Ana,68,378.74
+P010,Colchón Matrimonial Ortopédico,Hogar,Santa Ana,105,252.69
+P001,"Smart TV 55""",Tecnología,San Miguel,25,447.77
+P002,Refrigeradora 2 Puertas,Línea Blanca,San Miguel,22,397.06
+P003,Licuadora de Alta Potencia,Electrodomésticos,San Miguel,64,65.41
+P004,Taladro Percutor,Ferretería,San Miguel,13,80.89
+P005,Juego de Sala Minimalista,Hogar,San Miguel,6,254.61
+P006,Laptop Core i5,Tecnología,San Miguel,115,458.25
+P007,Microondas 20L,Electrodomésticos,San Miguel,48,64.97
+P008,Set de Herramientas 100 pzas,Ferretería,San Miguel,51,82.22
+P009,Aire Acondicionado 12000 BTU,Línea Blanca,San Miguel,85,370.83
+P010,Colchón Matrimonial Ortopédico,Hogar,San Miguel,108,256.38
+P001,"Smart TV 55""",Tecnología,La Libertad,10,436.86
+P002,Refrigeradora 2 Puertas,Línea Blanca,La Libertad,8,368.02
+P003,Licuadora de Alta Potencia,Electrodomésticos,La Libertad,67,67.22
+P004,Taladro Percutor,Ferretería,La Libertad,48,88.74
+P005,Juego de Sala Minimalista,Hogar,La Libertad,66,260.67
+P006,Laptop Core i5,Tecnología,La Libertad,99,468.98
+P007,Microondas 20L,Electrodomésticos,La Libertad,76,65.46
+P008,Set de Herramientas 100 pzas,Ferretería,La Libertad,66,83.52
+P009,Aire Acondicionado 12000 BTU,Línea Blanca,La Libertad,84,389.4
+P010,Colchón Matrimonial Ortopédico,Hogar,La Libertad,115,258.22
+P001,"Smart TV 55""",Tecnología,Sonsonate,30,470.94
+P002,Refrigeradora 2 Puertas,Línea Blanca,Sonsonate,64,381.62
+P003,Licuadora de Alta Potencia,Electrodomésticos,Sonsonate,45,63.68
+P004,Taladro Percutor,Ferretería,Sonsonate,49,81.38
+P005,Juego de Sala Minimalista,Hogar,Sonsonate,75,248.09
+P006,Laptop Core i5,Tecnología,Sonsonate,5,436.44
+P007,Microondas 20L,Electrodomésticos,Sonsonate,92,61.84
+P008,Set de Herramientas 100 pzas,Ferretería,Sonsonate,119,86.76
+P009,Aire Acondicionado 12000 BTU,Línea Blanca,Sonsonate,39,391.03
+P010,Colchón Matrimonial Ortopédico,Hogar,Sonsonate,9,260.66

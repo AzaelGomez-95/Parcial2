@@ -1,0 +1,58 @@
+Documento de Requerimientos de Software (ERS)
+Proyecto: Sistema de Control y Visualización de Inventario Multisucursal
+Cliente: Empresa Comercializadora (El Salvador)
+Sucursales: San Salvador, Santa Ana, San Miguel, La Libertad, Sonsonate
+
+1. Requerimientos Funcionales (RF)
+RF-01: Gestión y Estructura de Datos
+RF-01.1: El sistema debe manejar una base de datos o archivo de origen en formato CSV que sirva como inventario general.
+RF-01.2: El conjunto de datos debe incluir obligatoriamente las siguientes columnas:
+id_producto (Identificador único).
+nombre_producto (Descripción corta del producto).
+categoria (Categoría o departamento comercial).
+sucursal (Ubicación física: San Salvador, Santa Ana, San Miguel, La Libertad o Sonsonate).
+stock (Cantidad de unidades disponibles).
+precio_unitario (Valor monetario por unidad en USD).
+
+RF-02: Procesamiento y Análisis de Datos (Pandas)
+RF-02.1: El sistema debe procesar el archivo de datos utilizando la librería Pandas.
+RF-02.2: Debe ejecutar funciones de inspección para mostrar la estructura técnica (info()), tipos de datos (dtypes) y presencia de valores nulos.
+RF-02.3: Debe calcular estadísticas descriptivas básicas (describe()) de las variables cuantitativas (promedio, valores mínimos, máximos y desviación estándar de stock y precio_unitario).
+RF-02.4: Debe permitir agrupamientos de datos por sucursal y por categoria para sumarizar el stock total y el valor económico del inventario.
+
+RF-03: Interfaz Gráfica de Usuario (PyQt5 + Matplotlib)
+RF-03.1: El sistema debe proveer una interfaz gráfica amigable desarrollada en PyQt5.
+RF-03.2: Debe integrar un panel visual con gráficos de Matplotlib embebidos dentro de la ventana principal.
+RF-03.3: El gráfico debe visualizar claramente la distribución del stock total por cada una de las 5 sucursales mediante barras comparativas.
+RF-03.4: La interfaz debe incluir etiquetas dinámicas que muestren el valor numérico exacto sobre cada barra del gráfico.
+RF-03.5: Debe incluir un botón de interacción para actualizar/recargar la gráfica a partir del origen de datos.
+
+RF-04: Reporte e Informe de Consultoría (PDF)
+RF-04.1: Se debe estructurar un documento formal en PDF con un formato ejecutivo.
+RF-04.2: El informe debe incluir una Portada Formal con los datos de la empresa, consultor y fecha.
+RF-04.3: Debe contener una sección de Análisis Operativo ordenado con los hallazgos principales encontrados en la exploración de datos.
+RF-04.4: Debe incluir Conclusiones Claras por cada una de las variables analizadas (sucursal, categoria, stock, precio_unitario).
+RF-04.5: Debe brindar Recomendaciones Estratégicas aplicables al negocio para la optimización de existencias y logística inter-sucursal.
+
+2. Requerimientos No Funcionales (RNF)
+RNF-01: Rendimiento y Eficiencia
+El tiempo de carga del dataset y renderizado del gráfico en la interfaz de PyQt5 no debe superar los 3 segundos en equipos estándar.
+RNF-02: Usabilidad
+La interfaz gráfica debe tener un diseño limpio, intuitivo y legible, con contrastes de colores adecuados en los gráficos para facilitar la interpretación de la gerencia.
+RNF-03: Portabilidad y Compatibilidad
+El código fuente debe ser compatible con Python 3.8 o superior y ejecutarse correctamente en sistemas operativos Windows, macOS y Linux.
+RNF-04: Mantenibilidad y Calidad de Código
+El código debe estar modularizado, documentado mediante comentarios descriptivos y seguir los estándares convención PEP 8 de Python.
+
+3. Requerimientos del Entorno e Infraestructura (Técnicos)
+Lenguaje de Programación: Python 3.x
+Librerías Requeridas:
+pandas (Manipulación de datos)
+numpy (Simulación de datos)
+PyQt5 (Interfaz gráfica de usuario)
+matplotlib (Generación de gráficos)
+Archivos Entregables:
+Archivo de datos inventario_sucursales.csv.
+Script de generación e inspección de datos.
+Código de la aplicación de escritorio (.py).
+Documento PDF del Informe de Consultoría Final.
